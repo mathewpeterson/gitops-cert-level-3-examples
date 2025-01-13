@@ -36,11 +36,11 @@ spec:
       - env: integration-gpu
         region: us
         type: non-prod
-        versions: qa
+        version: qa
       - env: integration-non-gpu
         region: us
         type: non-prod
-        versions: qa
+        version: qa
   template:      
     metadata:
       name: '{{.env}}' 
